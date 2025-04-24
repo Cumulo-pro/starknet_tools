@@ -168,4 +168,32 @@ This means only one RPC call was made for this method in the scrape window, and 
 
 ---
 
+## 🔹 `rpc_http_requests`
 
+This `counter` metric tracks the **total number of HTTP requests** received by the RPC server.
+
+It is a high-level indicator of how much traffic the node is receiving via HTTP, without breaking it down by method or path.
+
+---
+
+### 🧠 Metric Details
+
+- **Type**: `counter`
+- **Example**: `1`
+
+---
+
+## 🔹 `rpc_server_requests`
+
+This `counter` metric tracks the **number of processed RPC requests**, broken down by `method` and `version`.
+
+It’s useful for identifying which specific RPC methods are being called most often.
+
+---
+
+### 🏷️ Labels
+
+- **`method`**: RPC method being called (e.g., `starknet_blockHashAndNumber`)
+- **`version`**: API version path (e.g., `/v0_8`)
+
+---
