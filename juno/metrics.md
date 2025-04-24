@@ -96,4 +96,46 @@ Each operation includes:
 
 ---
 
+## 🔹 `blockchain_reads`
+
+This `counter` metric tracks the number of **read operations** performed on the blockchain by method type. It provides insight into which types of data are being accessed most frequently by the Juno node.
+
+---
+
+### 📂 Labels
+
+- **`method`**: Indicates the specific type of read operation being counted.
+
+---
+
+### 🧠 Method Breakdown
+
+#### • `BlockHeaderByNumber`
+- **Description**: Number of times a block header was requested by its block number.
+- **Count**: `1307`
+
+#### • `Head`
+- **Description**: Number of times the current head of the chain was read.
+- **Count**: `1`
+
+#### • `HeadState`
+- **Description**: Accesses to the current state at the head of the chain.
+- **Count**: `1322`
+
+#### • `HeadsHeader`
+- **Description**: Reads of multiple headers at once.
+- **Count**: `79`
+
+#### • `Height`
+- **Description**: Reads requesting the current blockchain height.
+- **Count**: `3`
+
+---
+
+### 📊 Suggested Grafana Usage
+
+- **Panel**: `Bar Chart` or `Time Series (with rate)`
+- **Query (Top Methods)**:
+  ```promql
+  topk(5, rate(blockchain_reads[5m]))
 
