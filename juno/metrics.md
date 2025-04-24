@@ -197,3 +197,70 @@ It’s useful for identifying which specific RPC methods are being called most o
 - **`version`**: API version path (e.g., `/v0_8`)
 
 ---
+
+## 🔹 `process_resident_memory_bytes`
+
+This `gauge` metric reports the **resident set size (RSS)** of the process in bytes — the portion of memory occupied in RAM.
+
+---
+
+### 🧠 Metric Details
+
+- **Type**: `gauge`
+- **Example**: `1.4558208e+09` (≈ 1.46 GB)
+- **Use Case**: Monitor how much physical memory your node process is using.
+- **Grafana Panel**: `Stat`, `Gauge`, or `Time Series`
+- **Unit**: `bytes` or `bytes (binary)`
+- **Suggested Title**: `Resident Memory Usage`
+
+---
+
+## 🔹 `process_virtual_memory_bytes`
+
+This `gauge` metric tracks the **total virtual memory** the process has allocated, including memory not yet loaded into RAM.
+
+---
+
+### 🧠 Metric Details
+
+- **Type**: `gauge`
+- **Example**: `3.505983488e+09` (≈ 3.5 GB)
+- **Use Case**: Monitor the full memory footprint of your process, including swapped or reserved memory.
+- **Grafana Panel**: `Gauge` or `Time Series`
+- **Unit**: `bytes` or `bytes (binary)`
+- **Suggested Title**: `Virtual Memory Usage`
+
+---
+
+## 🔹 `process_virtual_memory_max_bytes`
+
+This `gauge` metric shows the **maximum amount of virtual memory** available to the process. Typically system-defined.
+
+---
+
+### 🧠 Metric Details
+
+- **Type**: `gauge`
+- **Example**: `1.8446744073709552e+19` (Huge value — ~18.4 exabytes)
+- **Use Case**: Useful for understanding memory limits imposed by the OS or container environment.
+- **Grafana Panel**: `Stat`
+- **Unit**: `bytes`
+- **Suggested Title**: `Max Virtual Memory`
+
+---
+
+## 🔹 `process_start_time_seconds`
+
+This `gauge` metric shows the **Unix timestamp** (in seconds) when the process started.
+
+---
+
+### 🧠 Metric Details
+
+- **Type**: `gauge`
+- **Example**: `1.74551753275e+09` (equivalent to a specific UTC datetime)
+- **Use Case**: Helps track uptime or identify unexpected restarts.
+- **Grafana Panel**: `Stat`
+- **Suggested Query** (for human-readable uptime):
+  ```promql
+  time() - process_start_time_seconds
