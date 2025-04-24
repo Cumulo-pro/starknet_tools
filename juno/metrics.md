@@ -132,10 +132,40 @@ This `counter` metric tracks the number of **read operations** performed on the 
 
 ---
 
-### 📊 Suggested Grafana Usage
+## 🔹 `rpc_server_requests_latency`
 
-- **Panel**: `Bar Chart` or `Time Series (with rate)`
-- **Query (Top Methods)**:
-  ```promql
-  topk(5, rate(blockchain_reads[5m]))
+This `histogram` metric captures the **latency (in seconds)** of RPC requests to the node, broken down by method and API version.
+
+It helps identify slow endpoints and optimize performance of JSON-RPC interactions, particularly in Starknet-based environments.
+
+---
+
+### 🏷️ Labels
+
+- **`method`**: The specific RPC method invoked.
+- **`version`**: The API version used in the request path (e.g., `/v0_8`).
+
+---
+
+### 🔍 Example: `method="starknet_blockHashAndNumber"` / `version="/v0_8"`
+
+- **Total Requests**: `1`
+- **Total Duration**: `~0.0128s`
+
+This means only one RPC call was made for this method in the scrape window, and it completed in under ~13 milliseconds.
+
+---
+
+### 📦 Bucket Distribution
+
+| Bucket (≤ seconds) | Count |
+|--------------------|-------|
+| 0.005              | 0     |
+| 0.01               | 0     |
+| 0.025              | 1     |
+| 0.05 - 10          | 1     |
+| `+Inf`             | 1     |
+
+---
+
 
