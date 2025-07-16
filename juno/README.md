@@ -16,5 +16,12 @@ It provides complete resources to help you monitor sync status, validator attest
 
    A comprehensive reference for all metrics exported by Juno via `/metrics`. Includes sync state, RPC request counters, memory usage, and histogram metrics like fetch/store/verify. Recommended for both full nodes and validators.
 
-- **[Grafana Dashboard: JUNO Node by Cumulo](https://github.com/Cu)**
+- **[Grafana Dashboard: JUNO Node by Cumulo](https://github.com/Cumulo-pro/starknet_tools/blob/main/juno/JUNO%20Node%20by%20Cumulo-1752653324274.json)**
+
+   A production-ready Grafana dashboard to monitor Juno node activity in real time. It visualizes core sync metrics, validator attestation progress, RPC load, and system stats such as CPU and memory usage. Built and maintained by [Cumulo Pro](https://cumulo.pro).
+
+---
+
+With these resources, you’ll be able to deploy a robust and auditable monitoring system for your Juno nodes, ensuring high availability and visibility over both synchronization and validator responsibilities.
+
 
