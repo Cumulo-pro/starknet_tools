@@ -4,6 +4,39 @@ This document describes the Prometheus-exported metrics from a **Juno node**, wi
 
 ---
 
+
+## 📑 Table of Contents
+
+1. [🔹 `sync_best_known_block_number` – Best Known Block](#-sync_best_known_block_number)
+2. [🔹 `sync_blockchain_height` – Node Sync Height](#-sync_blockchain_height)
+3. [🔹 `sync_blocks` – Blocks Synced per Minute](#-sync_blocks)
+4. [🔹 `sync_reorganisations` – Chain Reorganizations](#-sync_reorganisations)
+5. [🔹 `sync_timers` – Sync Operation Timings](#-sync_timers)
+   - [🛠️ Histogram Buckets Breakdown](#️-histogram-buckets-breakdown)
+   - [⛓️ Operation Types](#️-operation-types)
+     - [`fetch`](#fetch)
+     - [`store`](#store)
+     - [`verify`](#verify)
+6. [🔹 `blockchain_reads` – Blockchain Read Operations](#-blockchain_reads)
+   - [📂 Labels](#-labels)
+   - [🧠 Method Breakdown](#-method-breakdown)
+     - [`BlockHeaderByNumber`](#blockheaderbynumber)
+     - [`Head`](#head)
+     - [`HeadState`](#headstate)
+     - [`HeadsHeader`](#headsheader)
+     - [`Height`](#height)
+7. [🔹 `rpc_server_requests_latency` – RPC Request Latency](#-rpc_server_requests_latency)
+   - [🏷️ Labels](#️-labels)
+   - [🔍 Example](#-example-methodstarknet_blockhashandnumber--versionv0_8)
+   - [📦 Bucket Distribution](#-bucket-distribution)
+8. [🔹 `rpc_http_requests` – Total HTTP Requests](#-rpc_http_requests)
+9. [🔹 `rpc_server_requests` – RPC Server Request Counts](#-rpc_server_requests)
+10. [🔹 `process_resident_memory_bytes` – Resident Memory Usage](#-process_resident_memory_bytes)
+11. [🔹 `process_virtual_memory_bytes` – Virtual Memory Usage](#-process_virtual_memory_bytes)
+12. [🔹 `process_virtual_memory_max_bytes` – Max Virtual Memory](#-process_virtual_memory_max_bytes)
+13. [🔹 `process_start_time_seconds` – Process Start Time & Uptime](#-process_start_time_seconds)
+
+---
 ## 🔹 `sync_best_known_block_number`
 
 - **Description**: Represents the highest block number known to the node — essentially the latest height the network has reached according to this node.
