@@ -1,6 +1,25 @@
-# 📊 Juno Node Metrics for Grafana
+# 📊 Juno Node Metrics Documentation
 
-This document describes the Prometheus-exported metrics from a **Juno node**, with suggestions for visualizing them in **Grafana**.
+## 📘 Introduction
+
+This document provides a comprehensive reference for the **Prometheus metrics exported by Juno nodes**, which are part of the Starknet full node implementation written in Go.
+
+These metrics are essential for monitoring the **sync performance**, **storage and verification operations**, **blockchain read patterns**, **RPC request behavior**, and **system resource usage** of your Juno node. They are especially valuable when visualized through tools like **Grafana**, enabling operators to gain insight into node health, efficiency, and bottlenecks.
+
+The metrics described here are grouped into meaningful categories, including:
+
+- ✅ Block synchronization status  
+- ⏱️ Sync operation timing (histograms)  
+- 📂 Blockchain read operations  
+- 🌐 RPC request frequency and latency  
+- 🧠 System memory usage and process lifecycle  
+
+Each metric is presented with a clear explanation, example values, usage in Grafana panels, and Prometheus query suggestions when applicable.
+
+By leveraging these metrics, node operators and infrastructure providers can proactively monitor performance, **detect anomalies**, and **optimize their Juno-based infrastructure** for stability and scalability.
+
+For ease of navigation, please refer to the **[📑 Table of Contents](#-table-of-contents)** below.
+
 
 ---
 
