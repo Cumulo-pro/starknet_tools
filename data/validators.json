@@ -16,5 +16,14 @@
     "content":{
       "Starknet Solo Staking Validator Setup": "https://github.com/theSchein/starknet-solostaker"
      }
+},
+  {
+    "name": "sluh.ai",
+    "webservices": "https://sluh.ai",
+    "x": "sluh_ai",
+    "validatorlogo": "sluh_ai.jpg",
+    "tools_url": {
+        "Starknet Validator Attestation Dashboard": "https://github.com/sluhai/starknet-attestation-dashboard"
+     }
 }
 ]
