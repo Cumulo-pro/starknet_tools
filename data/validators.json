@@ -1,0 +1,11 @@
+[
+  {
+    "name": "HoodRun",
+    "webservices": "https://hoodrun.io/tools",
+    "x": "hoodrunio",
+    "validatorlogo": "hoodrunio.jpg",
+    "tools_url": {
+        "Starknet Remote Signer": "https://github.com/hoodrunio/starknet-remote-signer"
+     }
+}
+]
