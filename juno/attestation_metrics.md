@@ -8,6 +8,24 @@ This documentation describes the key Prometheus metrics exposed by a Juno node w
 - A running Juno node exposing `/metrics`
 - Prometheus configured to scrape it
 - Grafana for visualization (optional but recommended)
+---
+
+## 📑 Table of Contents
+
+1. [🔧 Prerequisites](#-prerequisites)
+2. [📌 Core Node Metrics](#-core-node-metrics)
+   - [🔄 Sync Status](#-sync-status)
+   - [🧠 Node Info](#-node-info)
+3. [🔐 Validator Attestation Metrics](#-validator-attestation-metrics)
+   - [🧭 Epoch Tracking](#-epoch-tracking)
+   - [⛓ Block Observation](#-block-observation)
+   - [✅ Attestation Activity](#-attestation-activity)
+4. [📈 Example Grafana Panels](#-example-grafana-panels)
+   - [🟢 Last Attestation Time](#-last-attestation-time)
+   - [📊 Epoch Progress](#-epoch-progress)
+5. [⚠️ Recommended Alerts](#️-recommended-alerts)
+6. [👤 Maintainer](#-maintainer)
+
 
 ---
 
