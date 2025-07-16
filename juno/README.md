@@ -22,6 +22,9 @@ It provides complete resources to help you monitor sync status, validator attest
 
 ---
 
+<img width="2116" height="614" alt="image" src="https://github.com/user-attachments/assets/f32ee4b9-d09f-4c1e-b5b1-69005e8cd83a" />
+
+
 With these resources, you’ll be able to deploy a robust and auditable monitoring system for your Juno nodes, ensuring high availability and visibility over both synchronization and validator responsibilities.
 
 
