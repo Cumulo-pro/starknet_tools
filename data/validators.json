@@ -7,5 +7,14 @@
     "tools_url": {
         "Starknet Remote Signer": "https://github.com/hoodrunio/starknet-remote-signer"
      }
+},
+  {
+    "name": "solostaker",
+    "webservices": "",
+    "x": "OlDirtyBenjieth",
+    "validatorlogo": "solostaker.jpg",
+    "content":{
+      "Starknet Solo Staking Validator Setup": "https://github.com/theSchein/starknet-solostaker"
+     }
 }
 ]
