@@ -1,13 +1,23 @@
 
 # 📊 Juno Validator Monitoring — Prometheus Metrics
 
-This documentation describes the key Prometheus metrics exposed by a Juno node with validator capabilities, with a focus on synchronization and the attestation process.
+## 📘 Introduction
 
-## 🔧 Prerequisites
+This documentation provides an overview of the **key Prometheus metrics** exposed by a **Juno full node with validator capabilities**, with a focus on monitoring **synchronization status** and the **attestation process** used for proving liveness and participation in the Starknet network.
 
-- A running Juno node exposing `/metrics`
-- Prometheus configured to scrape it
-- Grafana for visualization (optional but recommended)
+These metrics are designed to help node operators and infrastructure teams:
+
+- 📡 Track node sync health and participation
+- ✅ Monitor validator attestations and detect missed duties
+- 🧠 Understand the timing and context of attestation activity
+- 📈 Visualize validator behavior over time using Grafana
+- ⚠️ Configure alerts for downtime, slot misses, or anomalies
+
+Each metric is briefly described with its purpose, labels (if applicable), and suggestions for Grafana panels or Prometheus alerts.
+
+By integrating these metrics into your observability stack, you can maintain high validator performance and promptly respond to network changes.
+
+---
 ---
 
 ## 📑 Table of Contents
