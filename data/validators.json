@@ -26,6 +26,15 @@
         "Starknet Validator Attestation Dashboard": "https://github.com/sluhai/starknet-attestation-dashboard"
      }
 },
+  {
+    "name": "Nethermind",
+    "webservices": "https://www.nethermind.io/juno",
+    "x": "nethermindeth",
+    "validatorlogo": "nethermind.png",
+    "tools_url": {
+        "Starknet Juno Node": "https://github.com/NethermindEth/juno"
+     }
+},
    {
       "name": "Cumulo",
       "x": "Cumulo_pro",
