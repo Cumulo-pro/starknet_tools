@@ -36,6 +36,14 @@
      }
 },
    {
+    "name": "Equilibrium",
+    "webservices": "https://eqlabs.github.io/pathfinder/",
+    "x": "equilibrium_co",
+    "validatorlogo": "equilibrium_co.jpg",
+    "tools_url": {
+        "Starknet Pathfinder Node": "https://github.com/eqlabs/pathfinder"
+     },
+   {
       "name": "Cumulo",
       "x": "Cumulo_pro",
       "webservices": "https://cumulo.pro/services/celestia_mocha",
