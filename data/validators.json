@@ -40,6 +40,7 @@
     "webservices": "https://eqlabs.github.io/pathfinder/",
     "x": "equilibrium_co",
     "validatorlogo": "equilibrium_co.jpg",
+     "snapshot": "https://eqlabs.github.io/pathfinder/database-snapshots",
     "tools_url": {
         "Starknet Pathfinder Node": "https://github.com/eqlabs/pathfinder"
      },
