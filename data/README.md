@@ -32,8 +32,18 @@ To add or update validator entries:
 
 ```json
 {
-  "name": "Cumulo Pro",
-  "rpc": "http://127.0.0.1:6062",
-  "ws": "ws://127.0.0.1:6069",
- ...
-}
+      "name": "Cumulo",
+      "x": "Cumulo_pro",
+      "webservices": "https://cumulo.pro/services/celestia_mocha",
+      "validatorlogo": "cumulo.jpg",
+      "rpc": "https://rpc.starknet.cumulo.com.es",
+      "websocket": "wss://ws.starknet.cumulo.com.es",
+      "tools_url": {
+       "Juno Node Monitoring": "https://github.com/Cumulo-pro/starknet_tools/blob/main/juno/README.mdd"
+       },
+      "content": {
+        "Guide to Set Up a Starknet Full Node with Juno": "https://cumulo.pro/services//starknet/install",
+        "Guide to Set Up Starknet Validator Attestation ": "https://cumulo.pro/services/starknet/install_attest"
+      }
+    }
+```
