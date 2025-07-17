@@ -44,7 +44,8 @@
      "snapshot": "https://eqlabs.github.io/pathfinder/database-snapshots",
     "tools_url": {
         "Starknet Pathfinder Node": "https://github.com/eqlabs/pathfinder"
-     },
+     }
+     }
    {
       "name": "Cumulo",
       "x": "Cumulo_pro",
