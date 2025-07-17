@@ -31,6 +31,7 @@
     "webservices": "https://www.nethermind.io/juno",
     "x": "nethermindeth",
     "validatorlogo": "nethermind.png",
+    "explorer": "https://voyager.online/",
     "tools_url": {
         "Starknet Juno Node": "https://github.com/NethermindEth/juno"
      }
