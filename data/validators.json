@@ -46,6 +46,19 @@
         "Starknet Pathfinder Node": "https://github.com/eqlabs/pathfinder"
      }
      },
+  {
+  "name": "Encapsulate (fka KingSuper)",
+  "x": "encapsulate_xyz",
+  "webservices": "",
+  "api": "",
+  "rpc": "",
+  "grpc": "",
+  "bridge_snap": "",
+  "validatorlogo": "encapsulate.jpg",
+  "tools_url": {
+    "Ansible Playbook to deploy Starknet Node and Attestor Node": "https://github.com/encapsulate-xyz/starknet-ansible"
+  }
+},
    {
       "name": "Cumulo",
       "x": "Cumulo_pro",
