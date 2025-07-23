@@ -60,6 +60,19 @@
   }
 },
    {
+  "name": "Frutero Club",
+  "x": "fruteroclub",
+  "webservices": "",
+  "api": "",
+  "rpc": "",
+  "grpc": "",
+  "bridge_snap": "",
+  "validatorlogo": "frutero.png",
+  "tools_url": {
+    "Monitor your Starknet node easily": "@StarknetNode_bot"
+  }
+},
+   {
       "name": "Cumulo",
       "x": "Cumulo_pro",
       "webservices": "https://cumulo.pro/services/celestia_mocha",
