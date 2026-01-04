@@ -92,13 +92,13 @@ After=network.target
 
 [Service]
 Type=simple
-User=cumvelia3
+User=user
 ExecStart=/usr/local/bin/juno \
   --network sepolia \
   --http \
   --http-port 6063 \
   --http-host 0.0.0.0 \
-  --db-path /home/cumvelia3/junodata_testnet \
+  --db-path /home/user/junodata_testnet \
   --eth-node "wss://eth-sepolia.g.alchemy.com/v2/oR8C4R92EtGRr7W4cuxVtg1-JXucfbLL" \
   --metrics \
   --metrics-port 9093 \
