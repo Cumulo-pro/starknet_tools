@@ -6,7 +6,7 @@ Complete guide to deploy, sync, and operate a **Starknet full node using Juno**,
 
 ## Infrastructure
 
-- **Server:** BIG VELIA 3
+
 
 ---
 
