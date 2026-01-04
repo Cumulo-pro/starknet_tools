@@ -13,15 +13,7 @@ Complete guide to deploy, sync, and operate a **Starknet full node using Juno**,
 ## Validator Information
 
 ### Explorer (Validator)
-- https://sepolia.voyager.online/staking?validator=0x02ed848a45985f6715f5955368597f1bbc7f140b1d16e04d40ca28a921e59657
-
-### Wallets — Braavos Mon
-
-- **Test staker**  
-  `0x02ed848a45985f6715f5955368597f1bbc7f140b1d16e04d40ca28a921e59657`
-
-- **Test operator**  
-  `0x06bec7db6f576e9245c948cb5f3a1f9af41ae63dba7535caa0e35164b163ac93`
+- https://sepolia.voyager.online/staking
 
 ---
 
@@ -182,9 +174,6 @@ screen -r juno_snapshot
 
 # 🧪 Staking Process
 
-- Reference guide:  
-  https://darkcenobyte.medium.com/guide-for-solo-staker-on-starknet-phase-1-ca217246efde
-
 - Chain info:  
   https://docs.starknet.io/resources/chain-info/#sepolia_4
 
@@ -217,10 +206,10 @@ screen -r juno_snapshot
   `200000000000000000000`
 
 - **reward_address**  
-  `0x06bec7db6f576e9245c948cb5f3a1f9af41ae63dba7535caa0e35164b163ac93`
+  `0xxxx`
 
 - **operational_address**  
-  `0x06bec7db6f576e9245c948cb5f3a1f9af41ae63dba7535caa0e35164b163ac93`
+  `0xxxx`
 
 - **pool_enabled**  
   `1`
