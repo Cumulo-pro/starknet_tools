@@ -1,6 +1,6 @@
-# STARKNET FULL NODE WITH JUNO — TESTNET (SEPOLIA)
+# STARKNET FULL NODE WITH JUNO
 
-Complete guide to deploy, sync, and operate a **Starknet full node using Juno** on **Sepolia Testnet**, including systemd setup, snapshots, and staking process.
+Complete guide to deploy, sync, and operate a **Starknet full node using Juno**, including systemd setup, snapshots, and staking process.
 
 ---
 
