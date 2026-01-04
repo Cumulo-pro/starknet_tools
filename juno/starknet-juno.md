@@ -4,12 +4,6 @@ Complete guide to deploy, sync, and operate a **Starknet full node using Juno**,
 
 ---
 
-## Infrastructure
-
-
-
----
-
 ## Validator Information
 
 ### Explorer (Validator)
@@ -40,11 +34,11 @@ Complete guide to deploy, sync, and operate a **Starknet full node using Juno**,
 ### Ethereum RPC (Sepolia)
 
 - Alchemy Dashboard:  
-  https://dashboard.alchemy.com/apps/kefeenic80369uzg/networks
+  https://dashboard.alchemy.com/apps/
 
 - WSS Endpoint:
 ```text
-wss://eth-sepolia.g.alchemy.com/v2/oR8C4R92EtGRr7W4cuxVtg1-JxucfbLL
+wss://eth-sepolia.g.alchemy.com/
 ```
 
 ---
@@ -190,16 +184,6 @@ screen -r juno_snapshot
 
 ---
 
-## Wallets — Braavos Mon
-
-- **Test staker**  
-  `0x02ed848a45985f6715f5955368597f1bbc7f140b1d16e04d40ca28a921e59657`
-
-- **Test operator**  
-  `0x06bec7db6f576e9245c948cb5f3a1f9af41ae63dba7535caa0e35164b163ac93`
-
----
-
 ## Staking Configuration Parameters
 
 - **Amount (20 STRK)**  
@@ -216,16 +200,6 @@ screen -r juno_snapshot
 
 - **commission**  
   `500`
-
----
-
-## ✅ Successful Staking Transaction
-
-- Hash:  
-  `0x1b4d8789f4b295f3cef7c290eef1690355e71be6fa00a77abc72d7578676e0`
-
-- Explorer:  
-  https://sepolia.voyager.online/tx/0x1b4d8789f4b295f3cef7c290eef1690355e71be6fa00a77abc72d7578676e0
 
 ---
 
