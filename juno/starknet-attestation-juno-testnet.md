@@ -12,15 +12,6 @@ Complete guide to run the **Starknet Attestation Validator (staking v2)** using 
 
 ---
 
-## Operator Information
-
-- **Operator (Braavos):**  
-  ```
-  0x06bec7db6f576e9245c948cb5f3a1f9af41ae63dba7535caa0e35164b163ac93
-  ```
-
----
-
 # 1️⃣ Update / Prepare Environment
 
 Clone the repository and checkout the desired release.
@@ -66,8 +57,8 @@ Save the configuration file at:
     "ws": "ws://127.0.0.1:6064/v0_8"
   },
   "signer": {
-    "operationalAddress": "0x06bec7db6f576e9245c948cb5f3a1f9af41ae63dba7535caa0e35164b163ac93",
-    "privateKey": "0x06458ee902c453e80a78572fbb8fed6d51b6a3f58231853fb2031c73e7eecd24"
+    "operationalAddress": "0xxxx",
+    "privateKey": "0xxxx"
   }
 }
 ```
@@ -108,10 +99,10 @@ After=network-online.target
 
 [Service]
 User=cumvelia3
-WorkingDirectory=/home/cumvelia3/starknet-staking-v2
-ExecStart=/home/cumvelia3/starknet-staking-v2/build/validator \
+WorkingDirectory=/home/user/starknet-staking-v2
+ExecStart=/home/user/starknet-staking-v2/build/validator \
   --metrics --metrics-host "0.0.0.0" --metrics-port "9096" \
-  --config /home/cumvelia3/starknet-staking-v2/config.json
+  --config /home/user/starknet-staking-v2/config.json
 Restart=always
 RestartSec=5
 LimitNOFILE=50000
