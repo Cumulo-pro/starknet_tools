@@ -59,19 +59,35 @@
     "Ansible Playbook to deploy Starknet Node and Attestor Node": "https://github.com/encapsulate-xyz/starknet-ansible"
   }
 },
-   {
-  "name": "Frutero Club",
-  "x": "fruteroclub",
-  "webservices": "",
-  "api": "",
-  "rpc": "",
-  "grpc": "",
-  "bridge_snap": "",
-  "validatorlogo": "frutero.png",
-  "tools_url": {
-    "Monitor your Starknet node easily": "@StarknetNode_bot"
-  }
-},
+  {
+    "name": "Upstark",
+    "webservices": "https://upstark.net",
+    "x": "",
+    "validatorlogo": "",
+    "tools_url": {
+      "Upstark Explorer (Mainnet)": "https://upstark.net",
+      "Upstark Explorer (Sepolia)": "https://sepolia.upstark.net",
+      "Upstark Staking / Delegation": "https://upstark.net/staking"
+    }
+  },
+  {
+    "name": "R1M Sentinel",
+    "webservices": "https://sentinel.r1m.team/",
+    "x": "",
+    "validatorlogo": "",
+    "tools_url": {
+      "R1M Sentinel Monitoring Bot (Telegram)": "https://t.me/starknet_r1m_bot"
+    }
+  },
+  {
+    "name": "Norvos",
+    "webservices": "https://staking.norvos.xyz/",
+    "x": "NorvosLabs",
+    "validatorlogo": "",
+    "tools_url": {
+      "Norvos Validator Console": "https://staking.norvos.xyz/"
+    }
+  },
    {
       "name": "Cumulo",
       "x": "Cumulo_pro",
